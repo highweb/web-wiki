@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Home
+title: Web Wiki
 ---
 
 Welcome to Web Wiki!
