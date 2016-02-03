@@ -4,3 +4,5 @@ title: Web Wiki
 ---
 
 Welcome to Web Wiki!
+
+* [Unix shell](/shell)
