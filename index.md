@@ -10,3 +10,5 @@ Welcome to Web Wiki!
 * [Python cheatsheet](/python)
 * [Unix shell](/shell)
 * [Drush cheatsheet](/drush)
+* [Licenses](/licenses)
+* 
