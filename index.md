@@ -9,6 +9,6 @@ Welcome to Web Wiki!
 * [Git cheatsheet](/git)
 * [Python cheatsheet](/python)
 * [Unix shell](/shell)
+* [Mail servers](/mail)
 * [Drush cheatsheet](/drush)
 * [Licenses](/licenses)
-* 
