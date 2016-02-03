@@ -10,5 +10,6 @@ Welcome to Web Wiki!
 * [Python cheatsheet](/python)
 * [Unix shell](/shell)
 * [Mail servers](/mail)
+* [Drupal howtos](/drupal)
 * [Drush cheatsheet](/drush)
 * [Licenses](/licenses)
