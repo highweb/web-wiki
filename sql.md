@@ -1,6 +1,6 @@
 ---
 layout: base
-title: SQL
+title: SQL cheatsheet
 ---
 
 ```sql
