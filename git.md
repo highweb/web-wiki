@@ -6,13 +6,14 @@ title: Git cheatsheet
 
 ## Autosquashing
 
-IMPORTANT: Commit MESSAGE should be exactly the same as a previous commit message!
-
-$ git commit -m "fixup! MESSAGE"
-$ git rebase -i --autosquash HEAD^^
-
+**IMPORTANT:** Commit message should be exactly the same as a previous commit message!
+```sh
+git commit -m "fixup! Commit message"
+git rebase -i --autosquash HEAD^^
+```
 
 ## Working with remotes
-
+```sh
 # Update the list of remote branches:
-$ git remote update origin --prune
+git remote update origin --prune
+```
