@@ -66,3 +66,13 @@ chown -h USER:GROUP SYMLINK
 Copy all contents of a directory to another directory without overwriting:
 
 rsync -a --ignore-existing DIR1 DIR2
+
+
+## xattr
+```sh
+# List extended attributes for a given file:
+xattr -l FILE
+
+# Remove all extended attributes for a given file:
+xattr -c FILE
+```
