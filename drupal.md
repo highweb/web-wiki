@@ -3,6 +3,12 @@ layout: base
 title: Drupal howtos
 ---
 
+## Nginx
+```
+# Static files:
+try_files $uri $uri/ /index.php?q=$uri&$args;
+```
+
 ## Views
 
 Display a field in the standalone block on the same node page
