@@ -116,6 +116,12 @@ Don't forget to allow 27017 port in the firewall!
 
 MySQL
 
+To allow remote access comment this line in `/etc/mysql/my.cnf`:
+```
+#bind-address = 127.0.0.1
+```
+Don't forget to allow 3306 port in the firewall!
+
 Renaming:
 
 SELECT User FROM mysql.user;
