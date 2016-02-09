@@ -4,9 +4,20 @@ title: Drupal howtos
 ---
 
 ## Nginx
-```
+```sh
 # Static files:
 try_files $uri $uri/ /index.php?q=$uri&$args;
+
+# Edit /etc/php5/fpm/php.ini:
+post_max_size
+upload_max_filesize
+...
+$ service php5-fpm reload
+
+# Edit /etc/nginx/<...>.conf:
+client_max_body_size 8m;
+...
+$ service nginx reload
 ```
 
 ## Views
