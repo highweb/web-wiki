@@ -9,8 +9,8 @@ title: Drupal howtos
 try_files $uri $uri/ /index.php?q=$uri&$args;
 
 # Edit /etc/php5/fpm/php.ini:
-post_max_size
-upload_max_filesize
+post_max_size = 8M
+upload_max_filesize = 8M
 ...
 $ service php5-fpm reload
 
