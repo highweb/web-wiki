@@ -18,6 +18,11 @@ $ service php5-fpm reload
 client_max_body_size 8m;
 ...
 $ service nginx reload
+
+# Conditional redirect:
+if ($host = 'from.com') {
+ rewrite ^/(.*)$ https://to.com/$1 permanent;
+}
 ```
 
 ## Views
