@@ -20,7 +20,7 @@ client_max_body_size 8m;
 $ service nginx reload
 
 # Redirect a folder:
-rewrite ^/images($|/.*$) https://images.example.com$1 permanent;
+rewrite ^/images(|/.*)$ https://images.example.com$1 permanent;
 
 # Conditional permanent redirect:
 if ($host = 'from.com') {
