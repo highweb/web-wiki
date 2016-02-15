@@ -14,4 +14,4 @@ Welcome to Web Wiki!
 * [Mail servers](/mail)
 * [Drupal howtos](/drupal)
 * [Drush cheatsheet](/drush)
-* [Licenses](/licenses)
+* [Licensing](/licensing)
