@@ -1,6 +1,7 @@
 ---
 layout: base
-title: Licenses
+title: Licensing
+redirect_from: /licenses
 ---
 
 Here is the MIT license template which is limited by 80 characters per line and formatted for JS/CSS.
