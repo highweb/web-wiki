@@ -10,6 +10,7 @@ Welcome to Web Wiki!
 * [Python cheatsheet](/python)
 * [SQL cheatsheet](/sql)
 * [Debian howtos](/debian)
+* [Nginx howtos](/nginx)
 * [Unix shell](/shell)
 * [Mail servers](/mail)
 * [Drupal howtos](/drupal)
