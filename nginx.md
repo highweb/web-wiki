@@ -19,15 +19,12 @@ auth_basic_user_file /etc/nginx/.htpasswd;
 
 # Require auth for specific domain:
 ...
-if ($host = 'example.com') {
-  return 555;
-}
+auth_basic $example_com_auth_basic;
+auth_basic_user_file /etc/nginx/.htpasswd;
 
-error_page 555 = @auth;
-
-location @auth {
-	auth_basic "Restricted";
-	auth_basic_user_file /etc/nginx-passwd/.htpasswd;
+map $http_host $example_com_auth_basic {
+    default off;
+    example.com "Restricted";
 }
 ...
 
