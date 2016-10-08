@@ -76,3 +76,7 @@ xattr -l FILE
 # Remove all extended attributes for a given file:
 xattr -c FILE
 ```
+
+## reverse-i-search
+
+Give it a try: in the terminal, hold down Ctrl and press R to invoke "reverse-i-search." Type a letter - like s - and you'll get a match for the most recent command in your history that starts with s. Keep typing to narrow your match. When you hit the jackpot, press Enter to execute the suggested command.
