@@ -6,6 +6,8 @@ title: Web Wiki
 Welcome to Web Wiki!
 
 * [CSS cheatsheet](/css)
+* [jQuery cheatsheet](/jquery)
+* [JS cheatsheet](/js)
 * [Git cheatsheet](/git)
 * [Python cheatsheet](/python)
 * [SQL cheatsheet](/sql)
