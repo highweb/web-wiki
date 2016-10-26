@@ -8,6 +8,7 @@ Welcome to Web Wiki!
 * [CSS cheatsheet](/css)
 * [jQuery cheatsheet](/jquery)
 * [JS cheatsheet](/js)
+* [NPM cheatsheet](/npm)
 * [Git cheatsheet](/git)
 * [Python cheatsheet](/python)
 * [SQL cheatsheet](/sql)
