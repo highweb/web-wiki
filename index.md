@@ -9,6 +9,7 @@ Welcome to Web Wiki!
 * [jQuery cheatsheet](/jquery)
 * [JS cheatsheet](/js)
 * [NPM cheatsheet](/npm)
+* [Jekyll howtos](/jekyll)
 * [Git cheatsheet](/git)
 * [Python cheatsheet](/python)
 * [SQL cheatsheet](/sql)
