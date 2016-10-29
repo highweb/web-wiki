@@ -17,3 +17,9 @@ git rebase -i --autosquash HEAD^^
 # Update the list of remote branches:
 git remote update origin --prune
 ```
+
+## Submodules
+```sh
+# Sync .gitmodules data to .git/config:
+git submodule sync --recursive
+```
