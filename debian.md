@@ -102,6 +102,10 @@ sudo adduser <SFTP_LOGIN> sftponly
 sudo chown root:root /home/<SFTP_LOGIN>
 sudo usermod -s /bin/false <SFTP_LOGIN>
 
+```sh
+# Reload SSH daemon:
+service ssh reload
+```
 
 ## Databases
 
