@@ -23,3 +23,9 @@ git remote update origin --prune
 # Sync .gitmodules data to .git/config:
 git submodule sync --recursive
 ```
+
+## Clear working directory
+```sh
+git reset --hard
+git clean -d -x -f
+```
