@@ -118,3 +118,11 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && isset($_SERVER['HTTP_HOST'])) {
 if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
   $_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_X_FORWARDED_FOR'];
 }
+
+
+## Exportables (D8)
+
+`config/install` - must-have configurations
+`config/optional` - optional configurations (i.e. which depends on optional modules)
+
+https://www.drupal.org/node/2453919
