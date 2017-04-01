@@ -126,3 +126,8 @@ if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
 `config/optional` - optional configurations (i.e. which depends on optional modules)
 
 https://www.drupal.org/node/2453919
+
+
+## Dev modules
+
+- https://www.drupal.org/project/devel_debug_log
