@@ -128,6 +128,11 @@ if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
 https://www.drupal.org/node/2453919
 
 
-## Dev modules
+## Dev & debug
 
+Using dd($form_state); within the callback function works beautifully.
+
+On linux you can tail -f /tmp/drupal-debug.txt to see the $form_state in real time. (Or whatever the temp directory for your site is set to, often something like sites/yoursite.com/files/tmp.)
+
+Also:
 - https://www.drupal.org/project/devel_debug_log
