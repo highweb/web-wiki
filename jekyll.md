@@ -8,6 +8,24 @@ title: Jekyll howtos
 jekyll build --watch
 ```
 
+
+## Using a theme
+
+`_config.yml`:
+```
+theme: THEME
+```
+
+`Gemfile`:
+```
+source 'https://rubygems.org' do
+  gem 'jekyll'
+end
+
+gem 'THEME', :path => './theme'
+```
+
+
 ## Creating a theme
 
 `Gemfile`:
