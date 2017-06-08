@@ -99,7 +99,12 @@ UPDATE `field_revision_FIELD_1` SET `bundle` = 'NEW_BUNDLE' WHERE `bundle` = 'OL
 ...
 UPDATE `field_data_FIELD_N` SET `bundle` = 'NEW_BUNDLE' WHERE `bundle` = 'OLD_BUNDLE';
 UPDATE `field_revision_FIELD_N` SET `bundle` = 'NEW_BUNDLE' WHERE `bundle` = 'OLD_BUNDLE';
- 
+
+
+## Layout API (D8)
+
+https://www.drupal.org/docs/8/api/layout-api/how-to-render-layouts
+
 
 ## Configuring HTTPS
 
