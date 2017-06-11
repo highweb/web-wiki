@@ -142,3 +142,9 @@ On linux you can tail -f /tmp/drupal-debug.txt to see the $form_state in real ti
 
 Also:
 - https://www.drupal.org/project/devel_debug_log
+
+### PHP code beautifying
+
+https://github.com/squizlabs/PHP_CodeSniffer
+https://www.drupal.org/node/2462841#comment-12092343
+
