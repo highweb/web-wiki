@@ -145,6 +145,11 @@ Also:
 
 ### PHP code beautifying
 
+Atom + Atom Beautify + PHP CodeSniffer (managed to work 2.7.0 only)
+
+https://www.drupal.org/node/1419988
+https://www.drupal.org/node/1587138
 https://github.com/squizlabs/PHP_CodeSniffer
 https://www.drupal.org/node/2462841#comment-12092343
+https://www.drupal.org/node/2809335#comment-12115133
 
