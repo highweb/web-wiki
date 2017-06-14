@@ -60,6 +60,17 @@ Change ownership of a symlink itself:
 
 chown -h USER:GROUP SYMLINK
 
+## chmod
+
+To recursively give directories read&execute privileges:
+
+find /path/to/base/dir -type d -exec chmod 755 {} +
+To recursively give files read privileges:
+
+find /path/to/base/dir -type f -exec chmod 644 {} +
+
+https://superuser.com/questions/91935/how-to-chmod-all-directories-except-files-recursively
+
 
 ## rsync
 
