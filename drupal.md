@@ -109,7 +109,7 @@ https://www.drupal.org/node/2578731
 
 ## Render API
 
-See `Renderer::doRender`.
+See `EntityViewBuilder::buildMultiple`.
 
 
 ## Configuring HTTPS
