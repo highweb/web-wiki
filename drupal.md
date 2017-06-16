@@ -107,6 +107,11 @@ https://www.drupal.org/docs/8/api/layout-api/how-to-render-layouts
 https://www.drupal.org/node/2578731
 
 
+## Render API
+
+See `Renderer::doRender`.
+
+
 ## Configuring HTTPS
 
 In this example we run Drupal over HTTP and use CloudFlare as a proxy server under HTTPS.
