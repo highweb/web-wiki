@@ -32,3 +32,8 @@ git rm SUBMODULE
 git reset --hard
 git clean -d -x -f
 ```
+
+## Stash including untracked files
+```sh
+$ git stash -u
+```
