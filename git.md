@@ -37,3 +37,5 @@ git clean -d -x -f
 ```sh
 $ git stash -u
 ```
+
+https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
