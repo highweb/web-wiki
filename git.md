@@ -8,7 +8,7 @@ title: Git cheatsheet
 
 ```sh
 git rebase -i --preserve-merges # -p
-git pull --rebase -p <BRANCH>
+git pull --rebase -p <REPO> <BRANCH>
 ```
 
 ## Autosquashing
