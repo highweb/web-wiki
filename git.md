@@ -4,6 +4,12 @@ title: Git cheatsheet
 ---
 
 
+## Rebasing
+
+```sh
+git rebase -i --preserve-merges # -p
+```
+
 ## Autosquashing
 
 **IMPORTANT:** Commit message should be exactly the same as a previous commit message!
