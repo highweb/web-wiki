@@ -45,4 +45,10 @@ git clean -d -x -f
 $ git stash -u
 ```
 
+## Log
+```sh
+# Release notes style:
+$ git log --pretty='• %s'
+```
+
 https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
