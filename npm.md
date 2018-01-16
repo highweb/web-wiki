@@ -10,3 +10,10 @@ npm install --legacy-bundling
 # Ignore symlinks on Windows:
 npm install --no-bin-links
 ```
+
+# Development:
+    1. Pick one component to work on.
+    2. Clone its repo somewhere locally.
+    3. Go to this repo and run `yarn link`.
+    4. Go to the project and run `yarn link` again.
+    5. Now component repo is linked to the project repo allowing you to make and commit changes in both.
