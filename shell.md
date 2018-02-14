@@ -16,6 +16,11 @@ Copy public key on the remote server:
 
 ssh-copy-id REMOTE_USER@REMOTE_HOST
 
+# Generate fingerprint by SSH key:
+# ssh-keygen -E md5 -lf <fileName>
+$ ssh-keygen -E md5 -lf ~/.ssh/id_rsa.pub
+2048 00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd:ee:ff /Users/username/.ssh/id_rsa.pub (RSA)
+
 
 ## git
 
