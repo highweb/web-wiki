@@ -56,6 +56,13 @@ Filter criteria:	YOUR_FIELD is not empty
 Contextual filters:	Content: Nid	Provide default value: Content ID from URL
 Other:	Query settings	Distinct
 
+### Output Media URL in Views
+
+1. Create URL view mode on Media
+2. Configure to display URLs in this vide mode.
+3. Add Media field in View, go to Rewrite Results, tick Override the output of this field with custom text, use Twig:
+`{{ field_...|striptags|trim }}`
+
 
 ## Robots.txt
 
