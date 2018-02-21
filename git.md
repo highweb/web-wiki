@@ -9,6 +9,9 @@ title: Git cheatsheet
 ```sh
 git rebase -i --preserve-merges # -p
 git pull --rebase -p <REPO> <BRANCH>
+
+# Rebase current branch against another one:
+git rebase --onto <BRANCH>
 ```
 
 ## Autosquashing
