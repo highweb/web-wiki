@@ -10,6 +10,9 @@ title: Git cheatsheet
 git rebase -i --preserve-merges # -p
 git pull --rebase -p <REPO> <BRANCH>
 
+# Interactive rebase:
+git pull --rebase=interactive -p <REPO> <BRANCH>
+
 # Rebase current branch against another one:
 git rebase --onto <BRANCH>
 ```
