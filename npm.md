@@ -9,6 +9,10 @@ npm install --legacy-bundling
 
 # Ignore symlinks on Windows:
 npm install --no-bin-links
+
+# Install package globally:
+yarn global add <PACKAGE>
+
 ```
 
 # Development:
