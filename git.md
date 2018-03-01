@@ -36,6 +36,12 @@ git remote update origin --prune
 # Add:
 $ git submodule add git@mygithost:billboard lib/billboard
 
+# add submodule to track master branch
+git submodule add -b master [URL to Git repo];
+
+# update your submodule
+git submodule update --remote 
+
 # Sync .gitmodules data to .git/config:
 git submodule sync --recursive
 
