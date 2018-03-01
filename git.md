@@ -33,6 +33,9 @@ git remote update origin --prune
 
 ## Submodules
 ```sh
+# Add:
+$ git submodule add git@mygithost:billboard lib/billboard
+
 # Sync .gitmodules data to .git/config:
 git submodule sync --recursive
 
