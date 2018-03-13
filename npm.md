@@ -4,6 +4,9 @@ title: NPM cheatsheet
 ---
 
 ```sh
+# Init package:
+npm init
+
 # Non-flattend install:
 npm install --legacy-bundling
 
