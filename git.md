@@ -40,7 +40,8 @@ $ git submodule add git@mygithost:billboard lib/billboard
 git submodule add -b master [URL to Git repo];
 
 # update your submodule
-git submodule update --remote 
+git submodule update --remote
+git submodule update --init --recursive
 
 # Sync .gitmodules data to .git/config:
 git submodule sync --recursive
