@@ -3,6 +3,14 @@ layout: base
 title: Unix shell
 ---
 
+## mkdir
+
+```sh
+# Note that this will also create any intermediate directories that don't exist; for instance,
+mkdir -p foo/bar/baz
+```
+
+
 ## wget
 
 Download remote file by URL reproducing relative path locally:
