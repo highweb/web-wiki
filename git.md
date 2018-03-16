@@ -72,4 +72,20 @@ $ git stash -u
 $ git log --pretty='• %s'
 ```
 
+## Patching
+
+```
+# You can use Git to apply a patch to a project's repository:
+
+git apply -v path/file.patch
+
+# You can also use --index setting to track modified files:
+
+git apply -v --index path/file.patch
+
+# If you are not using git, or if the repo isn't a local checkout of the project you wish to patch:
+
+patch -p1 < path/file.patch
+```
+
 https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
