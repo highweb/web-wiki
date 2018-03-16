@@ -27,6 +27,12 @@ git rebase -i --autosquash HEAD^^
 
 ## Working with remotes
 ```sh
+# Add a new remote
+git remote add origin git@github.com:User/UserRepo.git
+
+# Change the url of an existing remote repository
+git remote set-url origin git@github.com:User/UserRepo.git
+
 # Update the list of remote branches:
 git remote update origin --prune
 ```
