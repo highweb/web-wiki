@@ -16,6 +16,9 @@ npm install --no-bin-links
 # Install package globally:
 yarn global add <PACKAGE>
 
+# Using --peer or -P will install one or more packages in your peerDependencies.
+yarn add <package...> [--peer/-P]
+
 ```
 
 # Development:
