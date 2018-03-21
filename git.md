@@ -59,6 +59,10 @@ git rm <asubmodule>
 # or, if you want to leave it in your working tree
 git rm --cached <asubmodule>
 rm -rf .git/modules/<asubmodule>
+
+# Rename/move a submodule:
+git mv A B # to relocate its working tree and to adjust the paths in the .gitmodules file.
+git submodule sync
 ```
 
 ## Clear working directory
