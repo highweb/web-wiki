@@ -3,6 +3,11 @@ layout: base
 title: Git cheatsheet
 ---
 
+## Cloning
+```sh
+# How to clone a specific Git branch?
+git clone -b my-branch git@github.com:user/myproject.git
+```
 
 ## Rebasing
 
