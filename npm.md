@@ -32,6 +32,12 @@ yarn add <package...> [--peer/-P]
 
 ## Scripts
 
+Apply a patch:
+```json
+"prepare": "git apply -v --directory=node_modules/blueimp-gallery patches/blueimp-gallery+2.32.0.patch && yarn --cwd=node_modules/blueimp-gallery build:jquery || exit 0"
+```
+
+
 npm scripts ignore errors
 Simply adding: exit 0 to the end of the command did it!
 https://stackoverflow.com/questions/30341113/npm-scripts-ignore-errors
