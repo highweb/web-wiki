@@ -30,6 +30,12 @@ yarn add <package...> [--peer/-P]
     4. Go to the project and run `yarn link` again.
     5. Now component repo is linked to the project repo allowing you to make and commit changes in both.
 
+## Scripts
+
+npm scripts ignore errors
+Simply adding: exit 0 to the end of the command did it!
+https://stackoverflow.com/questions/30341113/npm-scripts-ignore-errors
+
 ## Utils
 
 * https://github.com/ds300/patch-package
