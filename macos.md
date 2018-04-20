@@ -19,3 +19,13 @@ Add the key in the keychain
 # ssh-add -K ~/.ssh/[your-private-key]
 $ ssh-add -K ~/.ssh/id_rsa
 ```
+
+## Atom
+
+Activate the command palette (ShiftCmdP on Mac, CtrlShiftP on Windows/Linux) and search for "convert space" or "convert tab". You should find these three commands are available:
+
+Whitespace: Convert Spaces to Tabs
+Whitespace: Convert Tabs to Spaces
+Whitespace: Convert All Tabs to Spaces
+
+https://stackoverflow.com/questions/41848002/how-to-replace-tabs-with-spaces-in-atom
