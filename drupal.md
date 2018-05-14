@@ -30,7 +30,12 @@ if ($host = 'from.com') {
 
 ## Views
 
-Display a field in the standalone block on the same node page
+### Simple auth by Bearer Token
+
+1. Access - PHP
+2. `return $_SERVER['HTTP_AUTHORIZATION'] == 'Bearer <TOKEN>';`
+
+### Display a field in the standalone block on the same node page
 
 View:	
 Show: Content
