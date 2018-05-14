@@ -151,6 +151,14 @@ if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
 https://www.drupal.org/node/2453919
 
 
+## API
+
+Date format: `Y-m-d\TH:i:sO` # ISO8601
+
+http://php.net/manual/en/class.datetime.php#datetime.constants.types
+http://apiux.com/2013/03/20/5-laws-api-dates-and-times/
+
+
 ## Dev & debug
 
 Using dd($form_state); within the callback function works beautifully.
