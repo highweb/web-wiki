@@ -13,3 +13,13 @@ Go to your existing mail settings and enable POP access for a SINGLE folder. It'
 Then go to Gmail settings and start import via POP to the label with the same name and with archive option enabled.
 Wait while import is finished.
 Repeat steps 1-3 for each folder you have.
+
+## Download EML from Gmail
+
+1. Click Show original.
+2. Download.
+3. Rename .txt > .eml.
+
+## Search from: or to:
+
+`list:example@mail.com`
