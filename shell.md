@@ -19,7 +19,11 @@ wget -xnH URL
 
 
 ## ssh
-
+```sh
+# Create a public-private keypair:
+ssh-keygen -t rsa -C "your_email_address@example.com"
+# (!) A good, strong passphrase is highly recommended, to make your key less useful if it falls into the wrong hands.
+```
 Copy public key on the remote server:
 
 ssh-copy-id REMOTE_USER@REMOTE_HOST
