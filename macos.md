@@ -13,7 +13,15 @@ defaults write -g WebAutomaticTextReplacementEnabled -bool true
 sudo gem install jekyll
 ```
 
+## SSH
+
 ```
+# To set custom ssh key per host edit ~/.ssh/config:
+Host <fake_host>
+    HostName <host>
+    User <user>
+    IdentityFile ~/.ssh/<your_rsa>
+
 Add the key in the keychain
 # https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically
 # ssh-add -K ~/.ssh/[your-private-key]
