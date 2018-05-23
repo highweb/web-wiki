@@ -2,8 +2,9 @@
 # Pretty print:
 db.collection.find().pretty()
 
-# Export a collection:
+# Import/export a collection:
 mongoexport --db test --collection traffic --out traffic.json
+mongoimport --db users --collection contacts --file contacts.json
 
 # Export complete db:
 # For lazy people like me, i use mongodump it's faster:
