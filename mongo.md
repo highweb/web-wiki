@@ -1,11 +1,11 @@
-```
+```sh
 # Pretty print:
 db.collection.find().pretty()
-```
 
-```sh
-# How to export all collection in MongoDB?
+# Export a collection:
+mongoexport --db test --collection traffic --out traffic.json
 
+# Export complete db:
 # For lazy people like me, i use mongodump it's faster:
 mongodump -d <database_name> -o <directory_backup>
 
