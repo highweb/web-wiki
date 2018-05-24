@@ -87,6 +87,11 @@ $ git stash -u
 $ git log --pretty='• %s'
 ```
 
+## Custom ssh
+```sh
+git config core.sshCommand "ssh -i ~/.ssh/id_rsa_example -F /dev/null"
+```
+
 ## Patching
 
 ```sh
