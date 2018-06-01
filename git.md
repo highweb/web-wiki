@@ -3,6 +3,11 @@ layout: base
 title: Git cheatsheet
 ---
 
+## Commiting
+```sh
+git commit -m "MESSAGE" --author="EMAIL"
+```
+
 ## Cloning
 ```sh
 # How to clone a specific Git branch?
