@@ -12,4 +12,7 @@ set -e
 
 # Current dir name:
 ${PWD##*/}
+
+# Set env var:
+ABC="123"; export ABC
 ```
