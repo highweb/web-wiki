@@ -121,3 +121,11 @@ Give it a try: in the terminal, hold down Ctrl and press R to invoke "reverse-i-
 # count lines in a file
 wc -l file.txt
 ```
+
+## diff
+
+```
+# Create patch w/o git:
+# https://stackoverflow.com/questions/47779976/is-it-possible-to-create-a-drupal-project-patch-using-diff-but-not-using-git
+diff -ruN drupalprojectv1 drupalprojectv2 > patch.patch
+```
